@@ -65,7 +65,7 @@ AutoBank-1.0-SNAPSHOT.jar
 ```yaml
 # Cấu hình MB Bank
 mbbank:
-  account: "0376311426"
+  account: "xxxxxxxxxx"
   descriptionPrefix: "dlmc"
   api-url: "http://localhost:6868/"
   thoi-gian-check-giao-dich: 10
