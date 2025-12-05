@@ -173,21 +173,6 @@ Plugin hỗ trợ PlaceholderAPI với các placeholder:
 
 ---
 
-## 🗄️ **Cơ Sở Dữ Liệu**
-
-Plugin sử dụng SQLite để lưu trữ:
-
-```sql
-CREATE TABLE giao_dich (
-    id BIGINT PRIMARY KEY,
-    player VARCHAR(50),
-    amount INT,
-    status VARCHAR(20),
-    timestamp DATETIME,
-    server VARCHAR(50)
-);
-```
-
 **Trạng thái giao dịch:**
 - `PENDING`: Đang chờ xử lý
 - `COMPLETED`: Hoàn thành
